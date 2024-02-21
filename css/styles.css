@@ -11,6 +11,12 @@ ul, ol{
     margin: 0;
     padding: 0;
 }
+h1,h2,h3{
+margin: 0;
+}
+p{
+margin: 0;
+}
 img {
         display: block;
 }
@@ -90,7 +96,7 @@ button{
 .hero{
 
         background: #2e2f42;
-padding: 188px 0;
+        padding: 188px 0;
         
 }
 .main-title{
@@ -146,9 +152,7 @@ padding: 188px 0;
 .our-advantages{
         padding: 120px 0;
 }
-.advantages-container{
-        padding: 120px 0;
-}
+
 .advantages-list{
         display: flex;
         align-items: center;
@@ -184,7 +188,7 @@ padding: 188px 0;
 }
 .team{
        background-color: #f4f4fd;
-       padding: 120px 0;
+       
 }
 .team-list{
         display: flex;
@@ -249,14 +253,11 @@ padding: 188px 0;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
-        padding: 120px 0;
-        padding: 120px 0;
         margin-bottom: 72px;
 }
 .portfolio-list{
         display: flex;
         flex-wrap: wrap;
-        row-gap: 24px;
         column-gap: 24px;
         row-gap: 48px;
 }
@@ -277,7 +278,7 @@ padding: 188px 0;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        text-align: center;
+        text-align: left;
         text-transform: capitalize;
         margin-bottom: 8px;
 }
@@ -287,6 +288,7 @@ padding: 188px 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: left;
         color: #434455;
 
 }
@@ -305,7 +307,7 @@ padding: 188px 0;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-        margin-bottom: 16px;
+        
 }
 
 .logo-title {
